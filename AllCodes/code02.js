@@ -1,7 +1,5 @@
 // Peça para o usuário digitar dois números e mostre a soma.
-
 // Caso o usuário digite qualquer caractere que não seja 'number', mostre uma mensagem de aviso.
-
 
 const sum = () => {
     let n1 = prompt('Digite o primeiro número:');
