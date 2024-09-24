@@ -1,11 +1,9 @@
-// Perguntar o nome do usuário e mostrar uma mensagem de boas vindas.
+// Crie uma função que pergunte o nome ao usuário e mostre uma mensagem de boas vindas para ele.
 
 const helloUser = () => {
-    let user = prompt('Digite o seu nome:')
-  
-   alert(`Olá ${user}!`)
-  
-    return user
-  }
-  
-  helloUser()
+  let name = prompt("Wellcome, enter your first name:");
+
+  alert(`Wellcome ${name}!`)
+}
+
+helloUser();
